@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT juego (juego+)>
+<!ELEMENT juego (título, consola, año, genero, desarroladora, num_jugadores, estado_online, calificacipn, notas)>
+<!ATTLIST juego id ID #REQUIRED fecha_registro CDATA #REQUIRED>
+<!ELEMENT nombre_juego (#PCDATA)>
+<!ELEMENT consola (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT desarroladora (#PCDATA)>
+<!ELEMENT num_jugadores (#PCDATA)>
+<!ELEMENT estado_online (#PCDATA)>
