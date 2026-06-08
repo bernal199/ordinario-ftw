@@ -6,16 +6,20 @@
         <id>1</id>
         <nombre>Halo Combat Evolved</nombre>
         <genero>Acción, fps</genero>
+        <anio>2001</annio>
+        <desarrollador>Bungie</desarrollador>
         <plataforma>Xbox, pc</plataforma>
         <puntuacion>92</puntuacion>
         <imagen>halo_combat_evolved.jpg</imagen>
-        <descripcion></descripcion>
+        <descripcion>Halo: Combat Evolved (2001) es un emblemático videojuego de disparos en primera persona (FPS) desarrollado por Bungie.</descripcion>
     </juego>
 
     <juego>
         <id>2</id>
         <nombre>Dark souls 3</nombre>
         <genero>Rpg</genero>
+        <anio>2016</anio>
+        <desarrollador>From Software</desarrollador>
         <plataforma>Steam, Xbox one, Xbox series, Ps4, Ps5</plataforma>
         <puntuacion>85</puntuacion>
         <imagen>dk3.jpg</imagen>
@@ -26,6 +30,8 @@
         <id>3</id>
         <nombre>Devil may cry 3</nombre>
         <genero>Hack and slash</genero>
+        <anio>2005</anio>
+        <desarrollador>Capcom</desarrollador>
         <plataforma>Ps2, Ps3, Ps4, Ps5, Xbox one, Xbox series, Pc, Steam </plataforma>
         <puntuacion>85</puntuacion>
         <imagen>dmc3.jpg</imagen>
@@ -36,6 +42,8 @@
         <id>4</id>
         <nombre>Resident evil 4 remake</nombre>
         <genero>Survival horror</genero>
+        <anio>2023</anio>
+        <desarrollador>Capcom</desarrollador>
         <plataforma>Ps4, Ps5, Xbox one, Xbox series, Steam </plataforma>
         <puntuacion>90</puntuacion>
         <imagen>re4.jpg</imagen>
@@ -46,6 +54,8 @@
         <id>5</id>
         <nombre>Resident evil 2 remake</nombre>
         <genero>Survival horror</genero>
+        <anio>2019</anio>
+        <desarrollador>Capcom</desarrollador>
         <plataforma>Ps4, Ps5, Xbox one, Xbox series, Pc, Steam </plataforma>
         <puntuacion>91</puntuacion>
         <imagen>re2.jpg</imagen>
