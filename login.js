@@ -10,7 +10,7 @@ document.getElementById('form-login').addEventListener('submit', async function(
     let valido = false;
     for (let user of usuarios){
         const nombre = user.getElementsByTagName("nombre")[0].textContent;
-        const pass = user.getElementsByTagName("password")[0].textContent;
+        const pass = user.getElementsByTagName("contrasena")[0].textContent;
         if(nombre === usuario && pass === password){
             valido = true;
             break;
