@@ -1,52 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE juegos SYSTEM "juegos.dtd">
-<juego>
-<id>1</id>
-<nombre>Halo Combat Evolved</nombre>
-<genero>Acción, fps</genero>
-<plataforma>Xbox, pc</plataforma>
-<puntuación>4.8</puntuación>
-<imagen>halo_combat_evolved.jpg</imagen>
-<descripcion></descripcion>
-</juego>
+<juegos>
 
-<juego>
-<id>2</id>
-<nombre>Dark souls 3</nombre>
-<genero>Rpg</genero>
-<plataforma>Steam, Xbox one, Xbox series, Ps4, Ps5</plataforma>
-<puntuación>4</puntuación>
-<imagen>dark_souls_3.jpg</imagen>
-<descripcion></descripcion>
-</juego>
+    <juego>
+        <id>1</id>
+        <nombre>Halo Combat Evolved</nombre>
+        <genero>Acción, fps</genero>
+        <plataforma>Xbox, pc</plataforma>
+        <puntuacion>92</puntuacion>
+        <imagen>halo_combat_evolved.jpg</imagen>
+        <descripcion></descripcion>
+    </juego>
 
-<juego>
-<id>3</id>
-<nombre>Devil may cry 3</nombre>
-<genero>Hack and slash</genero>
-<plataforma>Ps2, Ps3, Ps4, Ps5, Xbox one, Xbox series, Pc, Steam </plataforma>
-<puntuación>4.5</puntuación>
-<imagen>devil_may_cry_3.jpg</imagen>
-<descripcion></descripcion>
-</juego>
+    <juego>
+        <id>2</id>
+        <nombre>Dark souls 3</nombre>
+        <genero>Rpg</genero>
+        <plataforma>Steam, Xbox one, Xbox series, Ps4, Ps5</plataforma>
+        <puntuacion>85</puntuacion>
+        <imagen>dark_souls_3.jpg</imagen>
+        <descripcion></descripcion>
+    </juego>
 
-<juego>
-<id>4</id>
-<nombre>Resident evil 4 remake</nombre>
-<genero>Survival horror</genero>
-<plataforma>Ps4, Ps5, Xbox one, Xbox series, Steam </plataforma>
-<puntuación>4.7</puntuación>
-<imagen>resident_evil_4_remake.jpg</imagen>
-<descripcion></descripcion>
-</juego>
+    <juego>
+        <id>3</id>
+        <nombre>Devil may cry 3</nombre>
+        <genero>Hack and slash</genero>
+        <plataforma>Ps2, Ps3, Ps4, Ps5, Xbox one, Xbox series, Pc, Steam </plataforma>
+        <puntuacion>85</puntuacion>
+        <imagen>devil_may_cry_3.jpg</imagen>
+        <descripcion></descripcion>
+    </juego>
 
-<juego>
-<id>5</id>
-<nombre>Resident evil 2 remake</nombre>
-<genero>Survival horror</genero>
-<plataforma>Ps4, Ps5, Xbox one, Xbox series, Pc, Steam </plataforma>
-<puntuación>4.5</puntuación>
-<imagen>resident_evil_2_remake.jpg</imagen>
-<descripcion></descripcion>
-</juego>
+    <juego>
+        <id>4</id>
+        <nombre>Resident evil 4 remake</nombre>
+        <genero>Survival horror</genero>
+        <plataforma>Ps4, Ps5, Xbox one, Xbox series, Steam </plataforma>
+        <puntuacion>90</puntuacion>
+        <imagen>resident_evil_4_remake.jpg</imagen>
+        <descripcion></descripcion>
+    </juego>
 
+    <juego>
+        <id>5</id>
+        <nombre>Resident evil 2 remake</nombre>
+        <genero>Survival horror</genero>
+        <plataforma>Ps4, Ps5, Xbox one, Xbox series, Pc, Steam </plataforma>
+        <puntuacion>91</puntuacion>
+        <imagen>resident_evil_2_remake.jpg</imagen>
+        <descripcion></descripcion>
+    </juego>
+</juegos>
