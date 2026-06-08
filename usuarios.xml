@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario>
+        <nombre>admin</nombre>
+        <contrasena>12345</contrasena>
+    </usuario>
+    <usuario>
+        <nombre>juan</nombre>
+        <contrasena>54321</contrasena>
+    </usuario>
+</usuarios> 
