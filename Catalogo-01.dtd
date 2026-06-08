@@ -1,10 +1,10 @@
 <!ELEMENT juegos (juego+)>
 
-<!ELEMENT juego (id, nombre, genero, plataforma, puntuación, imagen, descripcion)>
+<!ELEMENT juego (id, nombre, genero, plataforma, puntuacion, imagen, descripcion)>
 <!ELEMENT id (#PCDATA)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT genero (#PCDATA)>
 <!ELEMENT plataforma (#PCDATA)>
-<!ELEMENT puntuación (#PCDATA)>
+<!ELEMENT puntuacion (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT descripcion (#PCDATA)>

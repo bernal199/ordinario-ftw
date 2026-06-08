@@ -4,13 +4,13 @@ async function cargarJuegos() {
     const parser = new DOMParser();
     const xml = parser.parseFromString(texto, "text/xml");
     const juegos = xml.getElementsByTagName('juego');
-    const contenedor = document.getElementById("Contenedor juegos");
+    const contenedor = document.getElementById("contenedor-juegos");
     for (let juego of juegos) {
         const nombre = juego.getElementsByTagName("nombre")[0].textContent;
         const genero = juego.getElementsByTagName("genero")[0].textContent;
         const plataforma = juego.getElementsByTagName("plataforma")[0].textContent;
         const puntuacion = parseFloat
-            (juego.getElementsByTagName("puntuación")[0].textContent);
+            (juego.getElementsByTagName("puntuacion")[0].textContent);
         const imagen = juego.getElementsByTagName("imagen")[0].textContent;
         const descripcion = juego.getElementsByTagName("descripcion")[0].textContent;
         let color = "rojo";
