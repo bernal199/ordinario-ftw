@@ -18,12 +18,12 @@ async function cargarRanking(){
 });
 const contenedor = document.getElementById("contenedor-ranking");
 juegos.forEach((juego,posicion)=>{
-    const nombre = juego.getElemenstById("nombre")[0].textContent;
-    const puntuacion = juego.getElementsById("puntuacion")[0].textContent;
+    const nombre = juego.getElementsByTagName("nombre")[0].textContent;
+    const puntuacion = juego.getElementsByTagName("puntuacion")[0].textContent;
     contenedor.innerHTML += `
     <div class="ranking-item">
     <h3>
-        #${posicion +1}${nombre}
+        #${posicion +1} ${nombre}
     </h3>
     <div class="puntuacion verde">
         ${puntuacion}
