@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resenas>
+    <resena>
+        <juego>Halo Combat Evolved</juego>
+        <autor>juan</autor>
+        <puntuacion>95</puntuacion>
+        <comentario>Considero que halo 1 es el mejor de la saga, introduccion a una ip ampliamante buena durante el manejo de Bungie studios</comentario>
+    </resena>
+    <resena>
+        <juego>Dark Souls 3</juego>
+        <autor>admin</autor>
+        <puntuacion>88</puntuacion>
+        <comentario>Dark souls 3 me costo mucho, sin duda un desafio siendo mi primer souls</comentario>
+    </resena>
+    <resena>
+        <juego>Devil May Cry 3</juego>
+        <autor>juan</autor>
+        <puntuacion>90</puntuacion>
+        <comentario>DMC 3 es el peak de dmc, bastante divertido y epico junto a Vergil</comentario>  
+    </resena>
+    <resena>
+        <juego>Resident evil 4 remake</juego>
+        <autor>admin</autor>
+        <puntuacion>95</puntuacion>
+        <comentario>Mejor que el original a mi gusto, y uno de los mejores actualmente</comentario>
+    </resena>
+    <resena>
+        <juego>Resident evil 2 remake</juego>
+        <autor>juan</autor>
+        <puntuacion>92</puntuacion>
+        <comentario>Hecho completamente con amor, el inicio de los remakes, aunque los zombies se traguen 1000 balas</comentario>
+    </resena>
+</resenas>
