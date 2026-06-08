@@ -18,7 +18,7 @@
         <genero>Rpg</genero>
         <plataforma>Steam, Xbox one, Xbox series, Ps4, Ps5</plataforma>
         <puntuacion>85</puntuacion>
-        <imagen>dark_souls_3.jpg</imagen>
+        <imagen>dk3.jpg</imagen>
         <descripcion></descripcion>
     </juego>
 
@@ -28,7 +28,7 @@
         <genero>Hack and slash</genero>
         <plataforma>Ps2, Ps3, Ps4, Ps5, Xbox one, Xbox series, Pc, Steam </plataforma>
         <puntuacion>85</puntuacion>
-        <imagen>devil_may_cry_3.jpg</imagen>
+        <imagen>dmc3.jpg</imagen>
         <descripcion></descripcion>
     </juego>
 
@@ -38,7 +38,7 @@
         <genero>Survival horror</genero>
         <plataforma>Ps4, Ps5, Xbox one, Xbox series, Steam </plataforma>
         <puntuacion>90</puntuacion>
-        <imagen>resident_evil_4_remake.jpg</imagen>
+        <imagen>re4.jpg</imagen>
         <descripcion></descripcion>
     </juego>
 
@@ -48,7 +48,7 @@
         <genero>Survival horror</genero>
         <plataforma>Ps4, Ps5, Xbox one, Xbox series, Pc, Steam </plataforma>
         <puntuacion>91</puntuacion>
-        <imagen>resident_evil_2_remake.jpg</imagen>
+        <imagen>re2.jpg</imagen>
         <descripcion></descripcion>
     </juego>
 </juegos>

@@ -20,7 +20,7 @@ async function cargarJuegos() {
             color = "amarillo";
         }
         const tarjeta = `
-        <div class="tarjeta">
+        <a href="juego.html?id=${juego.getElementsByTagName("id")[0].textContent}" class="tarjeta">
             <img src="${imagen}">
             <div class="info">
                 <h3>${nombre}</h3>
@@ -31,7 +31,7 @@ async function cargarJuegos() {
                     ${puntuacion}
                 </div>
             </div>
-        </div>
+        </a>
         `;
         contenedor.innerHTML += tarjeta;
     }

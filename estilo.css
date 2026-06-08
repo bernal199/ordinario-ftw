@@ -1,4 +1,4 @@
-+{
+*{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -22,26 +22,32 @@ nav a{
     text-decoration: none;
     font-size: 18px;
     font-weight:bold;
-    transition:0.3;
+    transition:0.3s;
 }
 nav a:hover{
     color: #f5c542;
 }
 .acciones{
+    background:#000;
     display:flex;
-    justifi-content: center;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
-    padding: 0 0 20px 0;
-    background: #000;
+    gap: 20px;
+    padding-bottom: 20px;
 }
 .acciones input{
-    width: 450px;
-    max-width: 80%;
+    width: 700px;
     padding: 12px;
     border: none;
     border-radius:5px;
-    font-size:16px;
+}
+.login{
+    background: #f5c542;
+    color: #000;
+    text-decoration:none;
+    padding:12px 20px;
+    border-radius:5px;
+    font-weight: bold;
 }
 .login:hover{
     background:#ffd45f;
@@ -52,7 +58,7 @@ main{
 section h2{
     font-size: 40px;
     margin-bottom:25px;
-    border: bottom 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
     padding-bottom:10px;
 }
 #contenedor-juegos,
@@ -72,18 +78,24 @@ section h2{
     border-radius: 5px;
 }
 .tarjeta{
+    text-decoration:none;
+    color:black;
     width:340px;
     min-width: 340px;
-    height:520;
+    height:520px;
     background:white;
     border-radius:10px;
     overflow:hidden;
-    box-shadow: 0 2px 10px rgba(0.0.0.0.15);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
     transition:0.3s;
     display:flex;
     flex-direction: column;
 }
+.tarjeta:visited{
+    color:black;
+}
 .tarjeta:hover{
+    color:black;
     transform:translateY(-5px);
 }
 .tarjeta img{
@@ -162,4 +174,41 @@ footer{
     .info{
         min-height: 300px;
     }
+}
+.detalle-juego{
+    max-width:900px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+.detalle-juego img{
+    width:300px;
+    height:auto;
+    display:block;
+    margin:0 auto 20px auto;
+}
+
+.detalle-juego h1{
+    margin-bottom:20px;
+}
+
+.detalle-juego p{
+    margin-bottom:15px;
+    line-height:1.6;
+}
+.puntuacion-detalle{
+    width:100px;
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#00ce7a;
+    color:white;
+    font-size:40px;
+    font-weight:bold;
+    border-radius:10px;
+    margin:20px auto;
 }
