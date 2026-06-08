@@ -1,0 +1,6 @@
+<!ELEMENT resenas (resena+)>
+<!ELEMENT resena (juego,autor,puntuacion,comentario)>
+<!ELEMENT juego (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT puntuacion (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
