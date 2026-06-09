@@ -23,7 +23,7 @@
         <anio>2016</anio>
         <desarrollador>From Software</desarrollador>
         <imagen>dk3.jpg</imagen>
-        <descripcion></descripcion>
+        <descripcion>Dark Souls continúa redefiniendo los límites con el nuevo y ambicioso capítulo de esta serie revolucionaria, tan aclamada por la crítica. ¡Prepárate para sumergirte en la oscuridad!</descripcion>
     </juego>
 
     <juego>
@@ -35,7 +35,7 @@
         <anio>2005</anio>
         <desarrollador>Capcom</desarrollador>
         <imagen>dmc3.jpg</imagen>
-        <descripcion></descripcion>
+        <descripcion>Devil May Cry 3: Dante's Awakening es una precuela que narra los orígenes del cazador de demonios Dante. Ambientada años antes del primer juego, la historia sigue a Dante enfrentándose a su hermano gemelo, Vergil, y al misterioso Arkham, quienes planean abrir un portal al reino demoníaco usando una antigua torre</descripcion>
     </juego>
 
     <juego>
@@ -47,7 +47,7 @@
         <anio>2023</anio>
         <desarrollador>Capcom</desarrollador>
         <imagen>re4.jpg</imagen>
-        <descripcion></descripcion>
+        <descripcion>Leon S. Kennedy, superviviente de Raccoon City, es ahora un agente de élite del gobierno de EE. UU. Su misión: rescatar a la hija del presidente, Ashley Graham, secuestrada por una siniestra secta en un pueblo rural de España. Allí, Leon descubre que los aldeanos han sido infectados con un parásito mental llamado "Las Plagas".</descripcion>
     </juego>
 
     <juego>
@@ -59,7 +59,7 @@
         <anio>2019</anio>
         <desarrollador>Capcom</desarrollador>
         <imagen>re2.jpg</imagen>
-        <descripcion></descripcion>
+        <descripcion>El novato oficial de policía Leon S. Kennedy y la estudiante Claire Redfield quedan atrapados en Raccoon City durante un apocalipsis zombi provocado por un arma biológica de Umbrella Corporation. Separados al llegar, ambos deben explorar la ciudad, resolver acertijos y escapar de horribles mutaciones</descripcion>
     </juego>
 
     <juego>
@@ -71,7 +71,7 @@
         <anio>2026</anio>
         <desarrollador>Warner Bros. Games</desarrollador>
         <imagen>lego.jpg</imagen>
-        <descripcion></descripcion>
+        <descripcion>Conviértete en el Caballero Oscuro y enfréntate a los supervillanos más infames de DC en Ciudad Gótica. En esta aventura de acción en mundo abierto del galardonado estudio TT Games (LEGO Star Wars™: The Skywalker Saga), serás testigo del viaje de Batman, desde el entrenamiento de Bruce Wayne con la Liga de las Sombras hasta convertirse en el icónico protector de Ciudad Gótica.  Forja una nueva familia de aliados con Jim Gordon, Gatúbela, Robin, Nightwing y Batgirl para ayudar al Caballero Oscuro a enfrentarse a los villanos más infames, como el Joker, el Pingüino, el Sr. Frío, Hiedra Venenosa y Bane, entre otros. Construye el legado del Caballero Oscuro</descripcion>
     </juego>
     
     <juego>
@@ -83,7 +83,7 @@
         <anio>2025</anio>
         <desarrollador>Techland</desarrollador>
         <imagen>dyingLight.jpg</imagen>
-        <descripcion></descripcion>
+        <descripcion>Eres Kyle Crane. Y tras haber sido atrapado por el Barón y sufrir sus horribles experimentos durante años, consigues escapar. Pero las secuelas de ese horror permanecen. Estás a un paso de convertirte en un monstruo, ya que tienes ADN zombi aparte de humano. Apenas puedes controlar a la bestia que hay en tu interior, con todos los problemas que eso conlleva. Pero tendrás que aprender a controlarla si quieres vengarte del hombre que te hizo todo esto.</descripcion>
     </juego>
 
         <juego>
@@ -95,6 +95,6 @@
         <anio>2026</anio>
         <desarrollador>Capcom</desarrollador>
         <imagen>Requiem.jpg</imagen>
-        <descripcion></descripcion>
+        <descripcion>Una nueva era del survival horror llega con Resident Evil Requiem, el capítulo más reciente e inmersivo hasta ahora de la icónica serie Resident Evil. Vive el terror del survival horror con la analista del FBI Grace Ashcroft y sumérgete en acción trepidante con el legendario agente Leon S. Kennedy. Sus dos caminos y estilos singulares de juego se entrelazan en una experiencia electrizante que te helará la sangre.</descripcion>
     </juego>
 </juegos>
