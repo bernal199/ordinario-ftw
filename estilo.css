@@ -286,3 +286,77 @@ footer{
 .cabecera-detalle h1{
     margin:0;
 }
+.tienda-card{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+.tienda-card h3{
+    margin-bottom:10px;
+}
+
+.tienda-card p{
+    margin-bottom:15px;
+}
+
+.tienda-card a{
+    display:inline-block;
+    background:#f5c542;
+    color:black;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.logo-tienda{
+    width:200px;
+    height:100px;
+    object-fit:contain;
+    display:block;
+    margin:0 auto 15px auto;
+}
+.tienda-card{
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+
+    display:flex;
+    gap:25px;
+    align-items:flex-start;
+}
+
+.logo-tienda{
+    width:140px;
+    height:140px;
+    object-fit:contain;
+    flex-shrink:0;
+}
+
+.tienda-info{
+    flex:1;
+}
+
+.tienda-info h3{
+    margin-bottom:15px;
+}
+
+.tienda-info p{
+    margin-bottom:20px;
+    line-height:1.5;
+}
+
+.tienda-info a{
+    display:inline-block;
+    background:#f5c542;
+    color:black;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:5px;
+    font-weight:bold;
+}

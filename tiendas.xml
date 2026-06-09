@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tiendas>
+    <tienda>
+    <nombre>Steam</nombre>
+    <logo>steam.jpg</logo>
+    <url>https://store.steampowered.com/?l=spanish</url>
+    <descripcion>Es la tienda de distribución digital y red social de videojuegos para ordenador más grande del mundo, creada por la empresa Valve</descripcion>
+    </tienda>
+    
+    <tienda>
+    <nombre>Eneba</nombre>
+    <logo>eneba.jpg</logo>
+    <url>https://www.eneba.com/es/</url>
+    <descripcion>Eneba se lanzó en 2018. Somos una empresa de rápido crecimiento de Europa con un equipo de más de 200 expertos en comercio electrónico y juegos en todo el mundo, en la que confían más de 10 millones de usuarios registrados.</descripcion>
+    </tienda>
+
+    <tienda>
+    <nombre>Instant Gaming</nombre>
+    <logo>instant.jpg</logo>
+    <url>https://www.instant-gaming.com/es/</url>
+    <descripcion>Instant Gaming es una reconocida plataforma online especializada en la venta de códigos y claves digitales (keys) para videojuegos, con descuentos de hasta el 70%.</descripcion>
+    </tienda>
+</tiendas>
