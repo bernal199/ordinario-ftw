@@ -12,7 +12,7 @@ async function cargarJuegos() {
         const puntuacion = parseFloat
             (juego.getElementsByTagName("puntuacion")[0].textContent);
         const imagen = juego.getElementsByTagName("imagen")[0].textContent;
-        const descripcion = juego.getElementsByTagName("descripcion")[0].textContent;
+        const anio = juego.getElementsByTagName("anio")[0].textContent;
         let color = "rojo";
         if (puntuacion >= 90) {
             color = "verde";
@@ -26,7 +26,7 @@ async function cargarJuegos() {
                 <h3>${nombre}</h3>
                 <p><strong>Género:</strong> ${genero}</p>
                 <p><strong>Plataforma:</strong> ${plataforma}</p>
-                <p>${descripcion}</p>
+                <p><strong>Año:</strong> ${anio}</p>
                 <div class="puntuacion ${color}">
                     ${puntuacion}
                 </div>
@@ -37,3 +37,21 @@ async function cargarJuegos() {
     }
 }
 cargarJuegos();
+document.getElementById("busqueda")
+.addEventListener("input", function(){
+    const texto =
+    this.value.toLowerCase();
+    const tarjetas =
+    document.querySelectorAll(".tarjeta");
+    tarjetas.forEach(tarjeta => {
+        const nombre =
+        tarjeta.querySelector("h3")
+        .textContent
+        .toLowerCase();
+        if(nombre.includes(texto)){
+            tarjeta.style.display = "flex";
+        }else{
+            tarjeta.style.display = "none";
+        }
+    });
+});

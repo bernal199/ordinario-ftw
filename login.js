@@ -20,6 +20,11 @@ document.getElementById('form-login').addEventListener('submit', async function(
     if(valido){
         mensaje.textContent = "Acceso concedido";
         mensaje.style.color = "green";
+
+        setTimeout(() => {
+            window.location.href = "index.html";
+        },1000);
+    
     }else{
         mensaje.textContent = "Datos incorrectos";
         mensaje.style.color = "red";

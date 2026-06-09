@@ -15,6 +15,8 @@ async function cargarJuego(){
             const plataforma = juego.getElementsByTagName("plataforma")[0].textContent;
             const puntuacion = parseFloat(juego.getElementsByTagName("puntuacion")[0].textContent);
             const imagen = juego.getElementsByTagName("imagen")[0].textContent;
+            const anio = juego.getElementsByTagName("anio")[0].textContent;
+            const desarrollador = juego.getElementsByTagName("desarrollador")[0].textContent;
             let descripcion = 
             juego.getElementsByTagName("descripcion")[0].textContent;
             if(descripcion.trim() === ""){
@@ -24,9 +26,15 @@ async function cargarJuego(){
                 <div class="detalle-juego">
                     <img src="${imagen}" alt="${nombre}">
                     <h1>${nombre}</h1>
+
                     <p><strong>Género:</strong> ${genero}</p>
                     <p><strong>Plataforma:</strong> ${plataforma}</p>
-                    <div class="puntuacion-detalle">${puntuacion}</div>
+                    <p><strong>Año:</strong> ${anio}</p>
+                    <p><strong>Desarrollador:</strong> ${desarrollador}</p>
+
+                    <div classs="puntuacion-detalle">
+                        ${puntuacion}
+                    </div>
                     <p>${descripcion}</p>
                 </div>
             `;
