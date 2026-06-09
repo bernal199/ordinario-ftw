@@ -61,4 +61,40 @@
         <imagen>re2.jpg</imagen>
         <descripcion></descripcion>
     </juego>
+
+    <juego>
+        <id>6</id>
+        <nombre>Lego Batman: Legacy of Dark Knight</nombre>
+        <genero>plataformero</genero>
+        <plataforma>Ps5, Xbox series, Steam, Nindendo Switch 2</plataforma>
+        <puntuacion>87</puntuacion>
+        <anio>2026</anio>
+        <desarrollador>Warner Bros. Games</desarrollador>
+        <imagen>lego.jpg</imagen>
+        <descripcion></descripcion>
+    </juego>
+    
+    <juego>
+        <id>7</id>
+        <nombre>Dying Light the Beast</nombre>
+        <genero>Survival Horror</genero>
+        <plataforma>Ps5, Xbox series, Steam, Nintendo Switch 2</plataforma>
+        <puntuacion>80</puntuacion>
+        <anio>2025</anio>
+        <desarrollador>Techland</desarrollador>
+        <imagen>dyingLight.jpg</imagen>
+        <descripcion></descripcion>
+    </juego>
+
+        <juego>
+        <id>8</id>
+        <nombre>Resident Evil: Requiem</nombre>
+        <genero>Survival Horror</genero>
+        <plataforma>Ps5, Xbox series, Steam, Nintendo Switch 2</plataforma>
+        <puntuacion>88</puntuacion>
+        <anio>2026</anio>
+        <desarrollador>Capcom</desarrollador>
+        <imagen>Requiem.jpg</imagen>
+        <descripcion></descripcion>
+    </juego>
 </juegos>

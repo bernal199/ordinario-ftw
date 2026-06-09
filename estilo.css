@@ -200,17 +200,16 @@ footer{
     line-height:1.6;
 }
 .puntuacion-detalle{
-    width:100px;
-    height:100px;
+    width: 90px;
+    height: 90px;
     display:flex;
     justify-content:center;
     align-items:center;
-    background:#00ce7a;
     color:white;
     font-size:40px;
     font-weight:bold;
     border-radius:10px;
-    margin:20px auto;
+    flex-shrink:0;
 }
 
 .login-contenedor{
@@ -276,4 +275,14 @@ footer{
     display:flex;
     justify-content:space-between;
     align-items:center;
+}
+.cabecera-detalle{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.cabecera-detalle h1{
+    margin:0;
 }

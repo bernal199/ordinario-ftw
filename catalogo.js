@@ -1,25 +1,23 @@
-async function cargarJuegos() {
+async function cargarCatalogo() {
     const respuesta = await fetch('juegos.xml');
     const texto = await respuesta.text();
     const parser = new DOMParser();
     const xml = parser.parseFromString(texto, "text/xml");
     const juegos = xml.getElementsByTagName('juego');
-    const contenedor = document.getElementById("contenedor-juegos");
+    const contenedor =
+    document.getElementById("contenedor-juegos");
     for (let juego of juegos) {
         const nombre = juego.getElementsByTagName("nombre")[0].textContent;
         const genero = juego.getElementsByTagName("genero")[0].textContent;
         const plataforma = juego.getElementsByTagName("plataforma")[0].textContent;
-        const puntuacion = parseFloat
-            (juego.getElementsByTagName("puntuacion")[0].textContent);
+        const puntuacion = parseFloat(juego.getElementsByTagName("puntuacion")[0].textContent);
         const imagen = juego.getElementsByTagName("imagen")[0].textContent;
         const anio = juego.getElementsByTagName("anio")[0].textContent;
-        if(parseInt(anio) <2025){
-            continue;
-        }
         let color = "rojo";
-        if (puntuacion >= 90) {
+        if(puntuacion >= 90){
             color = "verde";
-        } else if (puntuacion >= 70) {
+        }
+        else if(puntuacion >= 70){
             color = "amarillo";
         }
         const tarjeta = `
@@ -39,22 +37,4 @@ async function cargarJuegos() {
         contenedor.innerHTML += tarjeta;
     }
 }
-cargarJuegos();
-document.getElementById("busqueda")
-.addEventListener("input", function(){
-    const texto =
-    this.value.toLowerCase();
-    const tarjetas =
-    document.querySelectorAll(".tarjeta");
-    tarjetas.forEach(tarjeta => {
-        const nombre =
-        tarjeta.querySelector("h3")
-        .textContent
-        .toLowerCase();
-        if(nombre.includes(texto)){
-            tarjeta.style.display = "flex";
-        }else{
-            tarjeta.style.display = "none";
-        }
-    });
-});
+cargarCatalogo();

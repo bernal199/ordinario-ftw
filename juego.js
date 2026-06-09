@@ -14,6 +14,12 @@ async function cargarJuego(){
             const genero = juego.getElementsByTagName("genero")[0].textContent;
             const plataforma = juego.getElementsByTagName("plataforma")[0].textContent;
             const puntuacion = parseFloat(juego.getElementsByTagName("puntuacion")[0].textContent);
+            let color = "rojo";
+            if (puntuacion >=90) {
+                color = "verde";
+            } else if (puntuacion >=70) {
+                color = "amarillo";
+            }
             const imagen = juego.getElementsByTagName("imagen")[0].textContent;
             const anio = juego.getElementsByTagName("anio")[0].textContent;
             const desarrollador = juego.getElementsByTagName("desarrollador")[0].textContent;
@@ -22,19 +28,20 @@ async function cargarJuego(){
             if(descripcion.trim() === ""){
                 descripcion = "Sin descripción aún";
             }
+
             contenedor.innerHTML = `
                 <div class="detalle-juego">
                     <img src="${imagen}" alt="${nombre}">
-                    <h1>${nombre}</h1>
-
+                    <div class="cabecera-detalle">
+                        <h1>${nombre}</h1>
+                        <div class="puntuacion-detalle ${color}">
+                            ${puntuacion}
+                        </div>
+                    </div>
                     <p><strong>Género:</strong> ${genero}</p>
                     <p><strong>Plataforma:</strong> ${plataforma}</p>
                     <p><strong>Año:</strong> ${anio}</p>
                     <p><strong>Desarrollador:</strong> ${desarrollador}</p>
-
-                    <div classs="puntuacion-detalle">
-                        ${puntuacion}
-                    </div>
                     <p>${descripcion}</p>
                 </div>
             `;
